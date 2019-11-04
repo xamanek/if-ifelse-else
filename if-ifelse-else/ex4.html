@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Título</title>
+	<meta charset="utf-8" />  
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+ <script>
+
+ //Pedir datos: pedir un precio. Pedir quanto paga. Si le sobras .. de quanto? Si es exacto ... Gracias. Si falta ... quanto?
+ 
+ 
+ precio = Number (prompt("dime el precio"));
+ pago = Number (prompt("Dime con quanto dinero pagais"));
+ 
+ if (precio < pago){
+ document.write("Te vuelvo " +(pago - precio));
+ }
+ 
+ else if (precio > pago){
+ document.write("Te falta " +(precio - pago));
+ }
+ else {
+ document.write("Vale, Hasta luego!");
+ }
+ 
+ 
+ 
+ </script>
+</body>
+</html>
